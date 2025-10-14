@@ -45,7 +45,7 @@ export default function Projects() {
           >
             <div className="h-[200]">
               <Image
-                src={"/Role-Based-CRUD.png"}
+                src={"/role-based-CRUD.png"}
                 width={768}
                 height={200}
                 alt="Role-Based CRUD"
