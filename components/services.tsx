@@ -17,7 +17,7 @@ const My_Services = {
 export default function Services() {
   return (
     <section className="py-3" id="services">
-      <div className="max-w-[1200px] mx-auto sm:mt-24 xs:mt-12 px-8">
+      <div className="max-w-[1200px] mx-auto sm:mt-24 xs:mt-12 sm:px-8 xs:px-3">
         <motion.div
           initial={{ opacity: 0, y: 70 }}
           whileInView={{ opacity: 1, y: 0 }}

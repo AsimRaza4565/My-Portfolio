@@ -25,15 +25,15 @@ export default function Home() {
               duration: 1,
               ease: [0.25, 0.1, 0.25, 1],
             }}
-            className="md:w-2/3 xs:pr-0 md:pr-20 text-white sm:w-full xs:w-full xs:text-center md:text-left sm:p-0"
+            className="md:w-2/3 xs:pr-0 md:pr-12 text-white sm:w-full xs:w-full xs:text-center md:text-left sm:p-0"
           >
-            <div className="text-gray-300 lg:text-2xl md:text-lg md:pt-0 xs:pt-8">
+            <div className="text-gray-300 lg:text-2xl md:text-lg md:pt-0 xs:pt-8 pb-4">
               Hello! I am
             </div>
-            <span className="text-pink-400 lg:text-3xl xs:text-2xl font-bold">
+            <span className="text-black bg-green-300 px-2 pb-1 rounded-sm lg:text-3xl xs:text-2xl font-semibold">
               {My_Info.name}
             </span>
-            <h1 className="font-bold text-yellow-500 xl:text-5xl lg:text-5xl mt-3 mb-6 md:text-4xl sm:text-4xl xs:text-2xl">
+            <h1 className="font-bold text-yellow-500 xl:text-5xl lg:text-5xl mt-3 mb-6 md:text-4xl sm:text-4xl xs:text-3xl">
               <Typewriter
                 options={{
                   strings: `${My_Info.title}`,
@@ -60,13 +60,13 @@ export default function Home() {
               duration: 1,
               ease: [0.25, 0.1, 0.25, 1],
             }}
-            className="w-1/3 flex items-center justify-center"
+            className="md:w-1/3 xs:2/3 flex items-center justify-center"
           >
             <Image
               src={"/Asim_Raza.jpg"}
               alt="Asim Raza"
-              width={336}
-              height={336}
+              width={286}
+              height={286}
               className="border-2 border-gray-400 rounded-full shadow-lg shadow-gray-500 hover:scale-101 transition-transform duration-500 ease-in-out"
             />
           </motion.div>

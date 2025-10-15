@@ -7,7 +7,7 @@ const Expereinces = {
   Expereince_1: {
     title:
       "Internship at Revnix, fmr. Revnix Technologies, Haripur, KPK, Pakistan",
-    desc: "I am gaining hands-on experience in building responsive and dynamic web applications using HTML5, CSS3, JavaScript (ES6+), <span>React.js <span />(Context API), TypeScript, Next.js, Tailwind CSS, and Shadcn UI, integrated with MongoDB for database management. My work focuses on developing reusable components, implementing custom filters, and optimizing performance and accessibility, which has strengthened my expertise in modern frontend development and collaboration on large-scale projects.",
+    desc: "I am gaining hands-on experience in building responsive and dynamic web applications using HTML5, CSS3, JavaScript (ES6+), React.js (Context API), TypeScript, Next.js, Tailwind CSS, and Shadcn UI, integrated with MongoDB for database management. My work focuses on developing reusable components, implementing custom filters, and optimizing performance and accessibility, which has strengthened my expertise in modern frontend development and collaboration on large-scale projects.",
     duration: "April 2025 – Present",
   },
   Expereince_2: {

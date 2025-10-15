@@ -110,7 +110,7 @@ function BlogCard({ blog }: { blog: Blog; index: number }) {
           width={400}
           height={300}
           alt={`blog_${blog.id}_image`}
-          className={`h-full w-full ${
+          className={`h-full w-full xs:rounded-t-md lg:rounded-none ${
             blog.reversed ? "lg:rounded-r-md" : "lg:rounded-l-md"
           }`}
         />

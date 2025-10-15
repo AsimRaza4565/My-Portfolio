@@ -147,7 +147,7 @@ export default function Skills() {
               <div>
                 <div className="flex justify-between items-center pb-1">
                   <h4 className="sm:text-lg xs:text-md font-semibold">
-                    TailwindCSS
+                    Tailwind
                   </h4>
                   <span className="text-lg font-semibold">85%</span>
                 </div>

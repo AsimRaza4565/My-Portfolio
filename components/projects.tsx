@@ -41,9 +41,9 @@ export default function Projects() {
               duration: 0.5,
               ease: "easeOut",
             }}
-            className="border-1 relative rounded-sm border-gray-700 hover:shadow-sm hover:shadow-gray-700 hover:scale-[1.02] transition-transform duration-500 ease-in-out"
+            className="border-1 relative rounded-b-lg border-gray-700 hover:shadow-sm hover:shadow-gray-700 hover:scale-[1.02] transition-transform duration-500 ease-in-out"
           >
-            <div className="h-[200]">
+            <div className="h-[200] rounded-t-lg">
               <Image
                 src={"/role-based-CRUD.png"}
                 width={768}
@@ -72,7 +72,7 @@ export default function Projects() {
               duration: 0.5,
               ease: "easeOut",
             }}
-            className="border-1 rounded-sm relative border-gray-700 hover:shadow-sm hover:shadow-gray-700 hover:scale-[1.02] transition-transform duration-500 ease-in-out"
+            className="border-1 rounded-b-lg relative border-gray-700 hover:shadow-sm hover:shadow-gray-700 hover:scale-[1.02] transition-transform duration-500 ease-in-out"
           >
             <div className="h-[200px]">
               <Image
@@ -103,7 +103,7 @@ export default function Projects() {
               duration: 0.5,
               ease: "easeOut",
             }}
-            className="border-1 relative rounded-sm border-gray-700 hover:shadow-sm hover:shadow-gray-700 hover:scale-[1.02] transition-transform duration-500 ease-in-out"
+            className="border-1 relative rounded-b-lg border-gray-700 hover:shadow-sm hover:shadow-gray-700 hover:scale-[1.02] transition-transform duration-500 ease-in-out"
           >
             <div className="h-[200px]">
               <Image
@@ -143,7 +143,7 @@ export default function Projects() {
               target="blank"
               rel="noopener noreferrer"
             >
-              See All Projects
+              See All
             </a>
           </Button>
         </motion.div>

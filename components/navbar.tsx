@@ -95,7 +95,7 @@ export default function Navbar() {
           </NavigationMenu>
         </div>
 
-        {/* Mobile Menu (Sheet + Collapsibles) */}
+        {/* Mobile Menu */}
         <div className="md:hidden">
           <Sheet>
             <SheetTrigger asChild>
