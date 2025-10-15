@@ -16,7 +16,7 @@ export default function Skills() {
         className="max-w-[1200px] mx-auto sm:mt-24 xs:mt-12 px-8"
       >
         <div className="flex justify-center">
-          <h2 className="text-lg px-3 py-1 mb-8 shadow-md shadow-gray-700 border-1 border-gray-700 rounded-3xl text-center text-black bg-gray-300">
+          <h2 className="text-lg px-3 py-1 shadow-md shadow-gray-700 border-1 border-gray-700 rounded-3xl text-center text-black bg-gray-300">
             What I can do
           </h2>
         </div>
