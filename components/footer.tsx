@@ -27,7 +27,7 @@ export default function Footer() {
             My Skills
           </Link>
           <Link
-            href={"#skills"}
+            href={"#services"}
             className="hover:text-blue-900 hover:underline hover:font-semibold"
           >
             Services
